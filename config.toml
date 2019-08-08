@@ -1,11 +1,11 @@
-baseURL = "https://www.example.com/"
-copyright = "© 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>."
+baseURL = "https://dvorky-9cf82.netlify.com/"
+copyright = ""
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 enableEmoji = true
-googleAnalytics = "UA-XXXXXXXXX-X"
+googleAnalytics = ""
 languageCode = "en-us"
 theme = "basic"
-title = "Hugo Theme Basic"
+title = "dvor.ky"
 [Permalinks]
 post = "post/:slug"
 [params]
