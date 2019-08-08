@@ -1,4 +1,17 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the page
+- name: all_posts
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: All posts
