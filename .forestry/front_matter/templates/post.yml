@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Post content
   description: Content of the post
+pages:
+- content/posts/test.md
