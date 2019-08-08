@@ -1,45 +1,34 @@
 baseURL = "https://www.example.com/"
-title = "Hugo Theme Basic"
-theme ="hugo-theme-basic"
-languageCode = "en-us"
-googleAnalytics = "UA-XXXXXXXXX-X"
-enableEmoji = true 
 copyright = "© 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>."
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
-
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-
-[params]
-  titleEmoji = ":tada:"
-  # change this!
-  twitter = "siegerts"
-
+enableEmoji = true
+googleAnalytics = "UA-XXXXXXXXX-X"
+languageCode = "en-us"
+theme = "basic"
+title = "Hugo Theme Basic"
 [Permalinks]
-  post = "post/:slug"
-
+post = "post/:slug"
+[params]
+titleEmoji = ":tada:"
+twitter = "siegerts"
 [[params.menu]]
-  name = "blog"
-  url = "post/"
-
+name = "blog"
+url = "post/"
 [[params.menu]]
-  name = "post series"
-  url = "series/"
-  
-
+name = "post series"
+url = "series/"
 [[params.menu]]
-  name = "about"
-  url = "about/"
-  
-
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = true
-  [privacy.twitter]
-    enableDNT = true
-  [privacy.youtube]
-    privacyEnhanced = true
+name = "about"
+url = "about/"
+[privacy.googleAnalytics]
+anonymizeIP = true
+respectDoNotTrack = true
+useSessionStorage = true
+[privacy.twitter]
+enableDNT = true
+[privacy.youtube]
+privacyEnhanced = true
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
