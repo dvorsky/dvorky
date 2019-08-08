@@ -15,5 +15,3 @@ fields:
     max: 
     labelField: 
   label: All posts
-pages:
-- content/dvor-ky.md
